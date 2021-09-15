@@ -5,7 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <title>Login Screen</title>
   </head>
-  <body></body>
+  <body>
+    <div class="login">
+      <div class="login-content">
+        <div class="login-img">
+          <img src="login.png" alt="Login screen image" />
+        </div>
+        <div class="login-forms">
+          <form action="" class="login-register" id="login-in">
+            <h1 class="login-title">Sign In</h1>
+            <div class="login-box">
+              <i class="bx bx-user login-icon"></i>
+              <input type="text" class="login-input" placeholder="Username" />
+              <div class="login-box">
+                <i class="bx bx-lock-alt login-icon"></i>
+                <input
+                  type="password"
+                  class="login-input"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
