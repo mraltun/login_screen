@@ -4,10 +4,15 @@
 /* CSS Variables */
 :root {
   /* Colors */
-  --first-color: #9d4bff;
+  --first-color: #023e8a;
+  --first-color-dark: #03045e;
+  --first-color-light: #0096c7;
+  --first-color-lighten: #ade8f4;
+
+  /* --first-color: #9d4bff;
   --first-color-dark: #23004d;
   --first-color-light: #a48eac;
-  --first-color-lighten: #f2f2f2;
+  --first-color-lighten: #f2f2f2; */
 
   /* Typography */
   --body-font: "Poppins", sans-serif;
@@ -170,7 +175,7 @@ img {
 .login-signin,
 .login-signup {
   font-weight: 600;
-  font-size: var(--small-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .login-account {
